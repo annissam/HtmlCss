@@ -16,13 +16,82 @@ div#conteneur{
 
 h1#header{
     height: 258px; /*personnaliser la hauteur de mon titre*/
-    background-image: url(../img/apple.jpg);
-    background-repeat: no-repeat;
-    margin-top: 0;
+    background: url(../img/apple.jpg) no-repeat left top;
+    background-repeat: no-repeat left top;
+    margin: 0;
+}
+h1#header a{/*on donne les mêmes dimentions au lien,chors possible avec la propriété'display:block'; qui transforme le lien en élément de type block,auquel on peut attribuer une taille */
+width: 400px;
+height: 70px;
+display: block;
+background: url('../img/title.gif') no-repeat; position: relative;
+left: 350px;
+top: 15px;
+text-indent: -5000px;
+}
+ul#menu{
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg_menu.gif') repeat-x 0 -25px;/*decalage de 25% vers le haut*/
+    list-style-type: none;/*on cache les puces*/
+
+}
+ul#menu li{
+    float: left;/*on rend les <li> flottant pour pouvoir les afficher horizontalement*/
+    text-align: center;/*centre le texte*/
+}
+ul#menu li a{
+    width: 130px;/*largeur*/
+    line-height: 25px;/*hauteur de ligne*/
+    font-size: 1.2em;/*taille e la police*/
+    font-weight: bold;/*accuentuation en gras/bold de la police*/
+    letter-spacing: 2px;/*espacement des lettres*/
+    color: #fff;/*couleur du texte*/
+    display: block;/*affichage en blocs*/
+    text-decoration: none;/*supprume la mise en forme par défaut du navigateur(surlignage)*/
+    border-right: 2px solid #dea;/*bordure droite*/
+}
+ul#menu li a:hover{
+    background: url('../img/bg_menu')repeat-x 0 0;
 }
 div#contenu{
     padding: 0 30px 0 100px;
     background-image: url(../img/bg_page.gif);
     background-repeat: no-repeat;
-
+background-position: 15px 15px;/*crée un  espace à gauche et à droite de l'image*/
+}
+div#contenu h2{
+    padding-left: 25px;
+    line-height: 25px;
+    font-size: 1.5em;
+    background: url('../img/little_apple.gif') no-repeat
+    left bottom;
+    color: #9b2;/*raccourci couleur hexadecimale #99bb22*/
+    border-bottom: 1px solid #9b2;
+}
+div#contenu h3{
+    margin-left: 15px;
+    padding-left: 5px;
+    border-bottom: 1px solid #9b2;
+    border-left: 3px solid #9b2;
+    color: #9b2;
+}
+div #contenu p{
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.7em;
+}
+div#contenu a{
+    color: #8a0;
+}
+div#contenu a:hover{
+    color: #9b2;
+}
+p#footer{
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: #8a0;
 }

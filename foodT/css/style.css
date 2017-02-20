@@ -1,0 +1,142 @@
+header{
+    height: 432px;
+    background-image: url(../img/food_truck.png);
+    background-repeat: no-repeat;
+    margin-top: 0;
+    background-position: center;
+}
+body{
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    background: #ffeecc;
+}
+
+hr {
+    margin-top: 26px;
+    margin-bottom: 42px;
+    border: -21;
+    border-top: 1px solid #000;
+}
+
+div#conteneur{
+    width: 1304px;
+    margin: 0 auto;
+    text-align:justify;
+    border: 47px solid #0e0703;
+    background: #ffeecc;
+    color:#5d5353;
+
+}
+#presentation{
+    background: #fff;
+    padding: inherit;
+}
+section#presentation{
+background-color: #816648;
+margin-bottom: 50%;
+}
+.contenu1{
+    color: #40402b;
+    background: #0e0703;
+    text-align: left;
+    margin-top: 15%;
+    padding: 0%;
+}
+#produit img{
+    width: 100%;
+    height: auto;
+}
+p{
+    margin-bottom: 20%;
+    margin-top: 4%
+}
+div#contenu{
+    padding: 0 30px 0 100px;
+    background-image: url(../img/);
+    background-repeat: no-repeat;
+
+}
+ol, ul {
+    margin-top: 197px;
+    margin-bottom: 149px;
+}
+
+.container2{
+    border: 2em double;
+    margin: 2.2em;
+    float: center;
+    text-align: center;
+    border-radius: 28%;
+    color: #44230f;
+    margin-bottom: 142px;
+    background: linear-gradient(to left, #ffeecc, #f3ebe0, #fffbe6)
+}
+
+.container-fluid {
+    text-align: center;
+    background-color: #5C0100;
+    width: 100%;
+    height: 120px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 4px 8px black;
+    margin-top: 7%;
+}
+footer {
+    border-top: 1px solid #000000;
+    clear: both;
+    color: #000;
+    width: inherit;
+    text-align: center;
+    margin-top: 112px;
+}
+
+.left, .right{
+    margin-top: 5em;
+}
+.left ul{
+    margin: 3.2em 0 0 0;
+    }
+
+.left ul li:first-child{/*premier <li> de la liste <ul> ayant la class.left*/
+    border-top: 1px solid #ccc;
+}
+.left ul li{/*tout les <li> de la liste <ul> ayant la class .left*/
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+}
+ul.list-1 li {
+
+border-left: 1px solid #ccc;
+
+}
+
+.right .change ul li{
+border-top: 1px solid #ccc;
+border-right: 1px solid #ccc;
+padding: 1em;
+width: 78em;
+text-align: center;
+
+}
+.right .change ul li:first-child{
+border-left: 1px solid #ccc;
+background-color: #44230f;
+color: #fff;
+font-weight: bold;
+}
+.right .change ul li:last-child{
+border-bottom: 1px solid #ccc;
+}
+.right .change ul:hover{
+    background: #fffbe1;
+    cursor: col-resize;
+    transform: scale(1.4);
+    transition-duration: 2s;
+}
+ul{
+    list-style: none;
+}
